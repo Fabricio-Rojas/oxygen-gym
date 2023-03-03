@@ -104,3 +104,6 @@ footer {
     text-decoration: none;
 }
 
+.policy p a:hover {
+    color: #00D1C6;
+}

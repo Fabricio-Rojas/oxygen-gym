@@ -90,10 +90,6 @@ section {
     margin: 0;
 }
 
-/* -----------------------------------*/
-/* Header                             */
-/* -----------------------------------*/
-
 h2 {
     margin-top: 280px;
     text-align: left;
@@ -159,4 +155,8 @@ footer {
     color: #fff;
     padding: 0 10px;
     text-decoration: none;
+}
+
+.policy p a:hover {
+    color: #00D1C6;
 }
