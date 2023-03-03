@@ -86,7 +86,6 @@ main {
 }
   
 .flex {
-    margin: 0 15px;
     width: 90%;
     height: 500px;
     display: flex;
@@ -284,4 +283,30 @@ footer {
 
 .policy p a:hover {
     color: #00D1C6;
+}
+
+@media(max-width: 996px) {
+    .policy {
+        font-size: 90%;
+    }
+
+    .text p {
+        padding: 15px 25px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .icons .fa-brands {
+        font-size: 10px;
+    }
+
+    .icons ul li:first-child {
+        margin-left: 0;
+    }
+
+    input[type=text], input[type=tel], input[type=email] {
+        width: 180px;
+    }
 }
