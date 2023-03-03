@@ -197,7 +197,7 @@ input[type=email]:focus {
     transition: all 0.25s ease-in-out;
 }
   
-.form button a {
+.form button[type=submit] {
     padding: 8px 20px;
     text-decoration: none;
     color: #fff;
