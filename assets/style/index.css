@@ -157,4 +157,9 @@ footer {
     color: #fff;
     padding: 0 10px;
     text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.policy p a:hover {
+    color: #00D1C6;
 }
