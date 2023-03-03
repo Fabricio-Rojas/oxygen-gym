@@ -170,6 +170,11 @@ ul li:before {
 /* Responsiveness                     */
 /* -----------------------------------*/
 
-@media(max-width: 768px) {
+@media(max-width: 996px) {
     h2 {margin-top: 200px;}
+    .row > div {
+        height: 675px;
+        margin-left: 10px;
+    }
+    .services {height: 150vh;}
 }
