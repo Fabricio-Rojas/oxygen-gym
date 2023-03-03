@@ -90,6 +90,13 @@ section {
     margin: 0;
 }
 
+<<<<<<< HEAD
+=======
+/* -----------------------------------*/
+/* Hero Banner                        */
+/* -----------------------------------*/
+
+>>>>>>> main
 h2 {
     margin-top: 280px;
     text-align: left;
@@ -119,13 +126,11 @@ button {
     letter-spacing: 0.4px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
-  }
-
+}
 
 /*-----------------------------------------------------*/
 /* Footer                                              */
 /*-----------------------------------------------------*/
-
 
 footer {
     background-color: #192D3D;
