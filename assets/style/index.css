@@ -1,11 +1,9 @@
 @import "./reset.css";
 
 .container {
-  width: min(100% - 30%, 1080px);
-  margin-inline: auto;
+    width: min(100% - 30%, 1080px);
+    margin-inline: auto;
 }
-
-
 
 body {
     background-color: #bdb8b8;
@@ -78,6 +76,7 @@ header nav ul li a:hover {
     }
     header nav ul li { display: none;}
 }
+
 /* -----------------------------------*/
 /* Background                         */
 /* -----------------------------------*/
@@ -88,7 +87,12 @@ section {
     height: calc(100vh); 
     text-align: center;
     overflow: hidden;
+    margin: 0;
 }
+
+/* -----------------------------------*/
+/* Header                             */
+/* -----------------------------------*/
 
 h2 {
     margin-top: 280px;
@@ -100,10 +104,6 @@ h2 {
 
 h2 + h2 {
     margin-top: 20px;
-}
-
-section {
-    margin: 0;
 }
 
 button {
