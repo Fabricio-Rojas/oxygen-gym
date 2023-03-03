@@ -92,3 +92,7 @@ h2 {
 h2 + h2 {
     margin-top: 20px;
 }
+
+section {
+    margin: auto;
+}
