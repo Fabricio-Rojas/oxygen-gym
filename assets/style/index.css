@@ -1,13 +1,45 @@
-/*-------------------------- Global Rules --------------------------*/
-
-@import url(./reset.css);
-
-/*-------------------------- Container Rules --------------------------*/
+@import "./reset.css";
 
 .container {
-    width: min(100% - 30px, 1080px);
-    margin-inline: auto;
+  width: min(100% - 30%, 1080px);
+  margin-inline: auto;
 }
+
+/*-----------------------------------------------------*/
+/* Footer                                              */
+/*-----------------------------------------------------*/
+
+
+footer {
+    background-color: #192D3D;
+    height: 110px;
+}
+
+.fflex {
+    text-align: center;
+    color: #fff;
+}
+
+.name {
+    font-size: 24px;
+}
+
+.copy {
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.policy {
+    display: flex;
+    justify-content: center;
+}
+
+.policy p a {
+    color: #fff;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
 
 body {
     background-color: #bdb8b8;
