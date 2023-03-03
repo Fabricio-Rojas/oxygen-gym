@@ -107,7 +107,7 @@ main {
     font-size: 30px;
     margin-top: 40px;
     color: #fff;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Arial', serif;
 }
   
 .text p {
@@ -242,7 +242,7 @@ input[type=email]:focus {
 .oxygen {
     font-size: 20px;
     font-weight: 600;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Arial', serif;
 }
 
 
