@@ -197,9 +197,9 @@ button {
 /* -----------------------------------*/
 
 .services {
-    min-height: 100%;
+    min-height: 110%;
     background-color: #fff;
-    padding: 0 30px;
+    padding: 0 30px 20px;
 }
 
 .membership {
