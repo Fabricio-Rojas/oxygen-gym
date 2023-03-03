@@ -165,3 +165,11 @@ ul li:before {
     font-size: 25px;
     font-weight: 600;
 }
+
+/* -----------------------------------*/
+/* Responsiveness                     */
+/* -----------------------------------*/
+
+@media(max-width: 768px) {
+    h2 {margin-top: 200px;}
+}
