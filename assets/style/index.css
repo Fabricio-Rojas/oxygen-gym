@@ -1,14 +1,21 @@
 @import "./reset.css";
 
 .container {
-  width: min(100% - 30%, 1080px);
-  margin-inline: auto;
+    width: min(100% - 30%, 1080px);
+    margin-inline: auto;
+}
+
+body {
+    background-color: #bdb8b8;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 /*-----------------------------------------------------*/
 /* Footer                                              */
 /*-----------------------------------------------------*/
-
 
 footer {
     background-color: #192D3D;
@@ -40,19 +47,6 @@ footer {
     text-decoration: none;
 }
 
-
-body {
-    background-color: #bdb8b8;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-/* -----------------------------------*/
-/* Header                             */
-/* -----------------------------------*/
-
 /* -----------------------------------*/
 /* Background                         */
 /* -----------------------------------*/
@@ -63,7 +57,12 @@ section {
     height: calc(100vh); 
     text-align: center;
     overflow: hidden;
+    margin: 0;
 }
+
+/* -----------------------------------*/
+/* Header                             */
+/* -----------------------------------*/
 
 h2 {
     margin-top: 280px;
@@ -75,10 +74,6 @@ h2 {
 
 h2 + h2 {
     margin-top: 20px;
-}
-
-section {
-    margin: 0;
 }
 
 button {
