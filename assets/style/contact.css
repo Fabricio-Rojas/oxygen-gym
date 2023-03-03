@@ -80,7 +80,7 @@ main {
 }
   
 .grid {
-    height: calc(100vh - 60px - 60px);
+    height: calc(95vh - 60px - 60px);
     display: grid;
     place-items: center;
 }
