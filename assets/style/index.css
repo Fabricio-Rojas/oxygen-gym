@@ -1,7 +1,6 @@
 @import "./reset.css";
 
 .container {
-<<<<<<< HEAD
   width: min(100% - 30%, 1080px);
   margin-inline: auto;
 }
@@ -41,10 +40,6 @@ footer {
     text-decoration: none;
 }
 
-=======
-    width: min(100% - 30px, 1080px);
-    margin-inline: auto;
-}
 
 body {
     background-color: #bdb8b8;
@@ -104,4 +99,3 @@ button {
     cursor: pointer;
     transition: all 0.3s ease-in-out;
   }
->>>>>>> main
