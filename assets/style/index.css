@@ -79,6 +79,22 @@ section {
     border-bottom: #3b1d1d ridge 4px;
 }
 
+.membership {
+    width: 60%;
+}
+
+h4 {
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #8a8949;
+}
+
+.services p {
+    font-size: 20px;
+    color: #fff;
+}
+
 .row {
     display: flex;
 }
