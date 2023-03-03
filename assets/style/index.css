@@ -84,7 +84,7 @@ header nav ul li a:hover {
 .hero {
     background: #fff url("../image/anastase-maragos-9dzWZQWZMdE-unsplash.jpg") 
     center center / cover no-repeat;
-    height: calc(100vh); 
+    height: calc(100vh - 60px); 
     text-align: center;
     overflow: hidden;
     border-bottom: #3b1d1d ridge 4px;
@@ -133,7 +133,6 @@ h2 + h2 {
 .services {
     height: 100vh;
     background-color: #2c2c2c;
-    border-bottom: #3b1d1d ridge 4px;
 }
 
 .membership {
@@ -181,7 +180,7 @@ h3 {
     text-decoration: underline;
 }
 
-ul li {
+.data ol li {
     text-align: center;
     padding-top: 15px;
     padding-left: 15px;
@@ -190,7 +189,7 @@ ul li {
     letter-spacing: 0.4px;
 }
 
-ul li:before {
+.row ol li:before {
     content: '✓'; 
 }
 
@@ -227,8 +226,13 @@ ul li:before {
 /* Responsiveness                     */
 /* -----------------------------------*/
 
-@media(max-width: 768px) {
+@media(max-width: 996px) {
     h2 {margin-top: 200px;}
+    .row > div {
+        height: 675px;
+        margin-left: 10px;
+    }
+    .services {height: 150vh;}
 }
 
 /*-----------------------------------------------------*/
