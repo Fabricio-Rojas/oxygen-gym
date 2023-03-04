@@ -13,6 +13,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="./assets/image/oxygen-gym-logo.png" type="image/x-icon">
         <link rel="stylesheet" href="./assets/style/contact.css" media="all">
+        <script src="./assets/script/contact.js" defer></script>
     </head>
     <body>
         <header>
@@ -57,17 +58,17 @@
                   <p>Fill out the form below</p>
                   <form>
                     <p>
-                      <input type="text" placeholder="User Name" required>
+                      <input type="text" placeholder="User Name" 
+                      name="contact" id="contact-name" required>
                     </p>
                     <p>
-                      <input type="tel" placeholder="(000) - 000 - 0000" name="Phone"
-                      required>
+                      <input type="tel" placeholder="(000) - 000 - 0000" name="contact" id="contact-tel" required>
                     </p>
                     <p>
-                      <input type="email" placeholder="example@gmail.com" name="email"
-                      required>
+                      <input type="email" placeholder="example@gmail.com" 
+                      name="contact" id="contact-email" required>
                     </p>
-                    <button><a href="#">Send</a></button>
+                    <button type="submit" id="send">Send</button>
                   </form>
                 </div>
               </div>
