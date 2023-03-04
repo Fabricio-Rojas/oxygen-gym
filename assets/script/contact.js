@@ -17,3 +17,11 @@ contactName.addEventListener('keyup', function() {
       this.value = this.value.replace(validName, "");
     };
 });
+
+contactTel.addEventListener('keyup', function() {
+    const validTel = /[^0-9() -]/g;
+  
+    if(validTel.test(this.value)) {
+      this.value = this.value.replace(validTel, "");
+    };
+});
