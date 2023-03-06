@@ -98,23 +98,20 @@ header nav ul li a:hover {
 
 /*---------Form----------------------------------------*/
 
-main {
-    height: 81.9%
-}
   
 .grid {
-    height: calc(95vh - 60px - 60px);
+    min-height: calc(95vh - 60px - 60px);
     display: grid;
     place-items: center;
 }
   
 .flex {
     width: 90%;
-    height: 500px;
+    height: 85%;
     display: flex;
+    flex-wrap: wrap;
+    align-content: center;
     border-radius: 5px;
-    background-color: #f1f2f3;
-    box-shadow: 1px 1px 2px rgb(190, 188, 188);
 }
   
 .text {
@@ -142,6 +139,9 @@ main {
 .form {
     text-align: center;
     width: 60%;
+    background-color: #f1f2f3;
+    box-shadow: 1px 1px 2px rgb(190, 188, 188);
+    overflow: hidden;
 }
   
 .form h2 {
@@ -268,6 +268,27 @@ input[type=email]:focus {
     font-family: 'Arial', serif;
 }
 
+@media (max-width: 768px) {
+    .grid {
+        height: calc(85vh - 60px - 60px);
+    }
+    .text {
+        width: 100%;
+        height: 30%;
+    }
+    .text h2 {
+        margin-top: 30px;
+    }
+    .form {
+        width: 100%;
+    }
+    .form h2 {
+        margin-top: 20px;
+    }
+    .form form {
+        margin-bottom: 20px;
+    }
+}
 
 /*-----------------------------------------------------*/
 /* Footer                                              */
