@@ -111,7 +111,7 @@ header nav ul li a:hover {
     height: calc(100vh - 60px); 
     text-align: center;
     overflow: hidden;
-    border-bottom: #00d1c6 ridge 4px;
+    border-bottom: #00d1c6 solid 4px;
     margin: 0;
 }
 
